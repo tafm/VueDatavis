@@ -2,6 +2,8 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import store from './store/store'
+
 import VisaoGeral from 'components/pages/VisaoGeral'
 import AnaliseDesempenho from 'components/pages/AnaliseDesempenho'
 import AnaliseEvasao from 'components/pages/AnaliseEvasao'
@@ -21,5 +23,6 @@ const router = new VueRouter({
 
 /* eslint-disable no-new */
 new Vue({
+  store,
   router
 }).$mount('#app')

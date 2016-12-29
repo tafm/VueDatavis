@@ -22,7 +22,7 @@
           tr
             th Alunos
         tbody
-          tr(v-for="aluno in metricas.alunos")
+          tr(v-for="aluno in alunos")
             td {{aluno.nome}}
     #content
       slot
@@ -33,18 +33,9 @@ export default {
   name: 'layout',
   components: {
   },
-  data: function () {
-    return {
-      metricas: {
-        alunos: [
-          {
-            nome: 'Fulano da Silva'
-          },
-          {
-            nome: 'Cicrano dos Santos'
-          }
-        ]
-      }
+  computed: {
+    alunos () {
+      return this.$store.state.metricas.alunos
     }
   }
 }
