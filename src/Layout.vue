@@ -9,12 +9,12 @@
         span.subtitle 2016.2
       #menu
         ul
-          li 
-            a.activated(href="#") Visão geral
           li
-            a(href="#") Análise de desempenho
+             router-link(to="/visao-geral") Visão Geral
           li
-            a(href="#") Análise de evasão
+             router-link(to="/analise-de-desempenho") Análise de desempenho
+          li
+             router-link(to="/analise-de-evasao") Análise de evasão
   #container
     #studentsleft
       table
@@ -102,7 +102,7 @@ export default {
                   color: #D4D0C8
                   text-decoration: none
                   font-family: arial
-                a.activated
+                a.router-link-active
                   color: #FFFFFF
                   background-color: #5E5E5E
                   border-bottom: 4px solid #EB6B56
