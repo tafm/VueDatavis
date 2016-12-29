@@ -106,6 +106,8 @@ export default {
                   color: #FFFFFF
                   background-color: #5E5E5E
                   border-bottom: 4px solid #EB6B56
+                a.router-link-active:hover
+                  background-color: #5E5E5E
                 a:hover
                   background-color: #3C3C3C
       #container
