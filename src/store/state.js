@@ -1,4 +1,6 @@
 export default {
+  disciplina: 'Introdução a programação',
+  semestre: '2016.2',
   metricas: {
     alunos: [
       {

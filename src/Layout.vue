@@ -5,8 +5,8 @@
       img(src="static/img/datavis.png")
     #titlemenu
       #title
-        span.title Introdução a programação
-        span.subtitle 2016.2
+        span.title {{ disciplina }}
+        span.subtitle {{ semestre }}
       #menu
         ul
           li
@@ -34,6 +34,12 @@ export default {
   components: {
   },
   computed: {
+    disciplina () {
+      return this.$store.state.disciplina
+    },
+    semestre () {
+      return this.$store.state.semestre
+    },
     alunos () {
       return this.$store.state.metricas.alunos
     }
