@@ -10,5 +10,20 @@ export default {
         nome: 'Cicrano dos Santos'
       }
     ]
-  }
+  },
+  tabelasindicadores: [
+    {
+      dados: {
+        'N': [
+          1,
+          2
+        ],
+        Descricao: [
+          'opa',
+          'lol'
+        ]
+      },
+      selected: []
+    }
+  ]
 }

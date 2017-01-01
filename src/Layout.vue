@@ -140,4 +140,16 @@ export default {
           min-height: 100%
           background-color: #FFFFFF
           float: left
+        #content > .middlecontent
+          width: calc(100% - #{$largurapaineldireito + (3 * $margensgeral)})
+          float: left
+          margin-left: $margensgeral
+        #content .middlecontent > div
+          margin-top: $margensgeral
+        #content > .rightpanel
+          width: $largurapaineldireito
+          float: left
+          margin-left: $margensgeral
+        #content .rightpanel > div
+          margin-top: $margensgeral
 </style>

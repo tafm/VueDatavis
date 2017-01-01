@@ -1,6 +1,6 @@
 <template lang="pug">
 	layout
-		|teste3
+		|pagina3
 </template>
 
 <script>
