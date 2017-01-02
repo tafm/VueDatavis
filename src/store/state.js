@@ -31,7 +31,7 @@ export default {
           'Média semanal de mensagens enviadas pelo aluno',
           'Média semanal de acessos do aluno ao ambiente',
           'Quantidade de atividades entregues pelo aluno no prazo',
-          'uantidade de colegas diferentes para quem o aluno enviou mensagens',
+          'Quantidade de colegas diferentes para quem o aluno enviou mensagens',
           'Tempo médio semanal de utilização da plataforma pelo aluno',
           'Quantidade de acessos do aluno ao ambiente',
           'Quantidade de mensagens enviadas por aluno aos professores',
@@ -42,6 +42,17 @@ export default {
         ]
       },
       selected: [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
         false,
         false
       ]

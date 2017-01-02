@@ -133,7 +133,7 @@ export default {
                 font-family: arial
                 font-size: 14px
                 td
-                  padding: 5px 0px 5px 10px
+                  padding: 5px 10px 5px 10px
                 td:hover
                   background-color: lighten($cortitulobox, 10%)
         #content

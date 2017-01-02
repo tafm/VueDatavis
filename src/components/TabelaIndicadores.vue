@@ -116,7 +116,7 @@
     thead
       tr
         th
-          padding: 4px
+          padding: 6px 10px
           box-sizing: border-box
           text-align: left
           border-bottom: 1px solid #CCCCCC
@@ -125,7 +125,7 @@
         font-family: arial
         font-size: 14px
         td
-          padding: 4px
+          padding: 5px 10px
       tr:hover
         background-color: #f2f7ff
       tr.selected
