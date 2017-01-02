@@ -19,9 +19,6 @@
         return n
       },
       selecao () {
-        if (this.$store.state.tabelasindicadores[this.numtabela].selected.length === 0) {
-          this.$store.commit('START_SELECAO_INDICADORES', this.numtabela)
-        }
         if (this.tiposelecao === 'singlenn' || this.tiposelecao === 'multiplenn') {
           var nadaselecionado = true
           for (var i = 0; i < this.$store.state.tabelasindicadores[this.numtabela].selected.length && nadaselecionado; i++) {
@@ -102,7 +99,7 @@
     },
     watch: {
       'selecionadosVuex' () {
-        console.log('mudou')
+        // console.log('mudou')
       }
     }
   }
@@ -125,6 +122,8 @@
           border-bottom: 1px solid #CCCCCC
     tbody
       tr
+        font-family: arial
+        font-size: 14px
         td
           padding: 4px
       tr:hover

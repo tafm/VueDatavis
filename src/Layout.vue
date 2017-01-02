@@ -131,6 +131,7 @@ export default {
               tr
                 color: #FFFFFF
                 font-family: arial
+                font-size: 14px
                 td
                   padding: 5px 0px 5px 10px
                 td:hover
